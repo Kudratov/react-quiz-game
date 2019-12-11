@@ -51,7 +51,7 @@ const QuestionList = (props) => {
         return (
             <Card className={useStyles.card + " here-height-left"}>
             <CardContent>
-              <Typography variant="h5" component="h2">Please wait... Asynchronous action is processing...</Typography>
+              <Typography variant="h5" component="h2" className="warning">Please wait... Asynchronous action is processing...</Typography>
             </CardContent>
           </Card>   
         )
