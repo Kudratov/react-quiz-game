@@ -57,7 +57,7 @@ const resultsLists = async getResultsLists => {
         const randomizedQuizResults = quizResults.sort(() => Math.random() - 0.5);
         setTimeout(() => {
             resolve(randomizedQuizResults);
-        }, 1000);
+        }, 7000);
     });
     const resultsList = await promise;
     return resultsList;
