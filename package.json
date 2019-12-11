@@ -8,7 +8,7 @@
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
-    "heroku-postbuild": "npm run build:prod"
+    "heroku-postbuild": "npm start build:prod"
   },
   "author": "kudratov",
   "license": "MIT",
