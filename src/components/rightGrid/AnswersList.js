@@ -59,7 +59,7 @@ const AnswersList = (props) => {
     }
 
     return (
-        <>  {missedAnswer === '1' ? <h3>Warming!!! you have missed this question, so you will not get any points</h3> : <p></p> }
+        <>  {missedAnswer === '1' ? <h3 className="warning">Warning!!! you have missed this question, so you will not get any points</h3> : <p></p> }
             <Radio
                 checked={props.a + '-' + props.pos === answer || props.a + '-' + props.pos === correctAnswer ? true : false}
                 value={props.a}
