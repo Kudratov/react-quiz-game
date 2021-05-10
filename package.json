@@ -19,7 +19,7 @@
     "core-js": "^3.4.7",
     "express": "^4.17.1",
     "extract-text-webpack-plugin": "^4.0.0-alpha.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "normalize.css": "^8.0.1",
     "npm": "^6.13.2",
     "react": "^16.8.6",
